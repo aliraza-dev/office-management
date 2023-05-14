@@ -8,6 +8,4 @@ This is a custom software solution to manage HR tasks for my small team. It is a
 
 ## Motivation
 
-I am the CTO and Co-founder of my start up, [NUMU](https://numuworld.com). I have been working for the past 5 years on this company and have managed to procure a small team of 15 people in Pakistan. The team includes developers, devOps, qa engineers and HR people and requires more management than I can handle.
-
-As mentioned I have HR people who are responsible for managing the team. However, I wanted to scratch the software development itch and build a custom solution to manage the HR tasks.
+Just a pet project from an idea I got from somewhere. My weekends are boring so I kinda want to get my TS and NEXT skills polished.
