@@ -41,7 +41,9 @@ export const Nav: React.FC = () => {
         <button
           id="menu-btn"
           onClick={() => setMobileMenu(!mobileMenu)}
-          className={`${ mobileMenu && 'open' } hamburger block focus:outline-none md:hidden`}
+          className={`${
+            mobileMenu && "open"
+          } hamburger block focus:outline-none md:hidden`}
         >
           <span className="hamburger-top"></span>
           <span className="hamburger-middle"></span>
@@ -53,7 +55,9 @@ export const Nav: React.FC = () => {
       <div className="md:hidden">
         <div
           id="menu"
-          className={`absolute left-6 right-6 mt-10 flex-col items-center space-y-6 self-end bg-white py-8 font-bold drop-shadow-md sm:w-auto sm:self-center ${ mobileMenu ? 'flex' : 'hidden' }`}
+          className={`absolute left-6 right-6 mt-10 flex-col items-center space-y-6 self-end bg-white py-8 font-bold drop-shadow-md sm:w-auto sm:self-center ${
+            mobileMenu ? "flex" : "hidden"
+          }`}
         >
           <a href="#" className="hover:text-darkGrayishBlue">
             Pricing
